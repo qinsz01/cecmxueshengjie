@@ -1,0 +1,62 @@
+ /* PC端排版 */
+        .background{width: 40vw; height: 90vh;}
+        .content {width: 52vw; height: 90vh;}
+        .container {width: 42vw}
+        .placeholder{min-width: 29.5%}
+
+        .item1{height: 113vw;}
+        .picture{width:80vw; height: 113vw;}
+        .picture2{height: 160vh;width: 90vh;}
+        .picture3{height: 80vh;width: 80vh;}        
+        .item2{height: 40vw;}
+        .para{line-height: 9vw; font-size: 4vw}
+
+        .item3{height: 113vw; margin:-110vw 20vw 0 20vw;}
+
+        /* 移动端排版 */
+        @media screen and (max-width: 480px) {
+            .placeholder {
+                min-width: 0;
+                width: 0;
+            }
+            .background {
+                width: 100vw;
+                height: 100vh;
+            }
+            .content {
+                width: 120vw;
+                height: 100vh;
+            }
+            .container{
+                width:100vw
+            }
+            .item1{
+                height: 120vh;
+            }
+            .item3 {
+                height: 120vh;
+            }
+            .picture{
+                height: 120vh;
+                width: 85vh;
+            }
+            .picture2{
+                height: 150vh;
+                width: 80vh;
+            }
+            .picture3{
+                height: 80vh;
+                width: 80vh;
+            }
+            .item2{
+                height: 40vh;
+            }
+            .para{
+                line-height: 9vh;
+                font-size: 6vh;
+            }
+
+            .item3{
+                margin: -125vh 20vh 0 20vh;
+            }
+        }
